@@ -1,0 +1,15 @@
+instruments:
+  - EURUSD
+poll_interval_seconds: 60
+history_limit: 50
+data_source:
+  base_url: "http://localhost:8000"
+  timeout_seconds: 5
+  retries: 3
+strategy:
+  short_window: 5
+  long_window: 20
+risk:
+  max_position_size: 1.0
+  stop_loss_pct: 0.02
+  take_profit_pct: 0.04
